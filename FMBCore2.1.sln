@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D6E9272-9338-4051-8687-76B579DFEFC3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CEED018-00C8-491B-9F02-4B57FE65C101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMB.UI.Web", "src\FMB.UI.Web\FMB.UI.Web.csproj", "{B2418B42-CB79-4AC1-995B-EEC3A8352814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2418B42-CB79-4AC1-995B-EEC3A8352814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2418B42-CB79-4AC1-995B-EEC3A8352814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2418B42-CB79-4AC1-995B-EEC3A8352814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2418B42-CB79-4AC1-995B-EEC3A8352814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CEED018-00C8-491B-9F02-4B57FE65C101} = {0D6E9272-9338-4051-8687-76B579DFEFC3}
+		{B2418B42-CB79-4AC1-995B-EEC3A8352814} = {2CEED018-00C8-491B-9F02-4B57FE65C101}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5C1741-B13F-49C5-B739-E4D964A1E6AC}
+	EndGlobalSection
+EndGlobal
